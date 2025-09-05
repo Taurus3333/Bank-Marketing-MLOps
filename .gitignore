@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+.pytest_cache 
+
+# Logs & local artifacts
+bank_marketing/logs/
+bank_marketing/mlruns/
+mlruns/
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks
+
+.dockerignore
+
+docker/

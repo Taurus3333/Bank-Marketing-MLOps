@@ -1,0 +1,33 @@
+{
+  "run_id": "5db13ee0d545402c86846cdc384b4a1e",
+  "metrics": {
+    "accuracy": 0.8215194072763463,
+    "precision": 0.35414480587618047,
+    "recall": 0.6379962192816635,
+    "f1": 0.45546558704453444,
+    "roc_auc": 0.8063356032636808,
+    "pr_auc": 0.45248104090092967,
+    "confusion_tn": 6754.0,
+    "confusion_fp": 1231.0,
+    "confusion_fn": 383.0,
+    "confusion_tp": 675.0
+  },
+  "params": {
+    "iterations": 500,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5,
+    "bagging_temperature": 0.5,
+    "border_count": 128,
+    "random_seed": 42,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "verbose": false,
+    "allow_writing_files": false,
+    "class_weights": [
+      1.0,
+      7.548333727251241
+    ]
+  },
+  "model_path": "artifacts\\train_now\\model\\catboost_model.cbm"
+}

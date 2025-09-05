@@ -1,0 +1,27 @@
+{
+  "rows": 45211,
+  "columns": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "y"
+  ],
+  "sample_hash": "88d26467eb70fe667ab04ba7c411931731c8c1bb",
+  "class_counts": {
+    "no": 39922,
+    "yes": 5289
+  }
+}
