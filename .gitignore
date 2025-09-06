@@ -10,11 +10,10 @@ venv/
 bank_marketing/logs/
 bank_marketing/mlruns/
 mlruns/
-logs/
 
 # Jupyter
 .ipynb_checkpoints/
-notebooks
+
 
 .dockerignore
 

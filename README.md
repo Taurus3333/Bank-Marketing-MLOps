@@ -99,7 +99,10 @@ uvicorn bank_marketing.services.api:app --reload --port 8000
 Check docs: http://localhost:8000/docs
 
 5. Run Streamlit App
+<<<<<<< HEAD
    
+=======
+>>>>>>> 64c449e (Your message describing changes)
 streamlit run app_streamlit.py
 
 This concludes this End-to-end MLOps project implemented as a lean, production-grade system with strong business impact. Suitable for interviews, portfolio showcase, and production deployments.
